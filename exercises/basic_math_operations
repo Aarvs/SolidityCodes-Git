@@ -1,0 +1,15 @@
+
+contract basicOperations {
+    function multiply(uint _a , uint _b) external pure returns (uint){
+        return _a * _b;
+    }
+    function divide(uint _c , uint _d) external pure returns (uint){
+        return _c / _d;
+    }
+    function subtract(uint _e , uint _f) external pure returns (uint){
+        return _e - _f;
+    }
+    function add(uint _x , uint _y) external pure returns (uint){
+        return _x + _y;
+    }
+}
